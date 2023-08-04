@@ -43,7 +43,7 @@
     "ios",
     "android"
   ],
-  "repository": "https://github.com/yaofeijian/react-native-awesome-library",
+  "repository": "https://github.com/yaofeijian/awesome-library.git",
   "author": "Eric.Yao <719642419@qq.com> (https://github.com/yaofeijian)",
   "license": "MIT",
   "bugs": {
