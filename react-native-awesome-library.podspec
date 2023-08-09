@@ -22,6 +22,6 @@ Pod::Spec.new do |s|
   if respond_to?(:install_modules_dependencies, true)
     install_modules_dependencies(s)
   else
-  s.dependency "React-Core", ‘~> 0.63.1’
+  s.dependency 'React-Core', '~> 0.63.1'
   end   
 end
