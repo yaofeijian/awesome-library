@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.authors      = package["author"]
 
   s.platforms    = { :ios => "11.0" }
-  s.source       = { :git => "https://github.com/yaofeijian/react-native-awesome-library.git" }
+  s.source       = { :git => "https://github.com/yaofeijian/react-native-awesome-library.git",  :zip=>"https://italkimobile.s3-us-west-2.amazonaws.com/rigel/itrncomponent/20230428023626_QA.iOS.20230428.1.zip"}
   #s.source       = { :http => "https://italkimobile.s3-us-west-2.amazonaws.com/rigel/itrncomponent/20230428023626_QA.iOS.20230428.1.zip" }
 
   s.source_files = "ios/**/*.{h,m,mm,swift}"
@@ -25,6 +25,6 @@ Pod::Spec.new do |s|
     install_modules_dependencies(s)
   else
   # s.dependency 'React-Core'
-  s.dependency  "ITRNComponent", :zip=>"https://italkimobile.s3-us-west-2.amazonaws.com/rigel/itrncomponent/20230428023626_QA.iOS.20230428.1.zip"
+
   end   
 end
