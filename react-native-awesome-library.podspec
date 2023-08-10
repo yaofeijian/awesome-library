@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   #s.source_files = "archive/**/*.{h,m,mm,swift}"
 
   # React Native Core dependency
-  s.dependency "React-Core"
+  s.dependency "React/Core"
 
   # The following lines are required by the New Architecture.
   s.compiler_flags = folly_compiler_flags + " -DRCT_NEW_ARCH_ENABLED=1"
