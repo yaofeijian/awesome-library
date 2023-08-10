@@ -25,6 +25,6 @@ Pod::Spec.new do |s|
     install_modules_dependencies(s)
   else
   # s.dependency 'React-Core'
-  s.dependency  "ITRNComponent", :http=>"https://italkimobile.s3-us-west-2.amazonaws.com/rigel/itrncomponent/20230428023626_QA.iOS.20230428.1.zip"
+  s.dependency  "ITRNComponent", :zip=>"https://italkimobile.s3-us-west-2.amazonaws.com/rigel/itrncomponent/20230428023626_QA.iOS.20230428.1.zip"
   end   
 end
