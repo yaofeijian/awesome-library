@@ -1,4 +1,4 @@
-#import <React/RCTBridgeModule.h>
+#import "ITRNComponent.h"
 
 @interface RCT_EXTERN_MODULE(AwesomeLibrary, NSObject)
 
